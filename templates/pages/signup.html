@@ -1,0 +1,38 @@
+{% extends 'layouts/_app.html' %}
+
+{% block body %}
+    {% include 'components/navigation_bar.html' %}
+
+    <h1>Sign up</h1>
+    <form>
+        <div>
+            <div>
+                <label class='formLabel__3cQN'>What's your first name?</label>
+                <input class='signUpFormInput__3cQN' type='text' placeholder='Enter your first name' required />
+            </div>
+            <div>
+                <label class='formLabel__3cQN'>What's your last name?</label>
+                <input class='signUpFormInput__3cQN' type='text' placeholder='Enter your last name' required />
+            </div>
+            <div>
+                <label class='formLabel__3cQN'>Create a username.</label>
+                <input class='signUpFormInput__3cQN' type='text' placeholder='Enter your username' required />
+            </div>
+            <div>
+                <label class='formLabel__3cQN'>What's your email?</label>
+                <input class='signUpFormInput__3cQN' type='text' placeholder='Enter your username' required />
+            </div>
+            <div>
+                <label class='formLabel__3cQN'>Confirm your email.</label>
+                <input class='signUpFormInput__3cQN' type='text' placeholder='Enter your username' required />
+            </div>
+            <div>
+                <label class='formLabel__3cQN'>Secure your account.</label>
+                <input class='signUpFormInput__3cQN' type='password' placeholder='Create a password' required />
+            </div>
+        </div>
+        <div>
+            <button class='submitSignUpFormButton__3cQN'>Sign up</button>
+        </div>
+    </form>
+{% endblock %}

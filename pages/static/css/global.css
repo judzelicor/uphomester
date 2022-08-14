@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Switzer';
+    src: url('../fonts/Switzer-Variable.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Switzer';
+    src: url('../fonts/Switzer-Variable.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Switzer';
+    src: url('../fonts/Switzer-Variable.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Switzer';
+    src: url('../fonts/Switzer-Variable.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Switzer';
+    src: url('../fonts/Switzer-Variable.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Switzer';
+    src: url('../fonts/Switzer-Variable.ttf') format('truetype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Switzer';
+    src: url('../fonts/Switzer-Variable.ttf') format('truetype');
+    font-weight: 900;
+}
+
+:root {
+    --fg-primary: #212121;
+    --gray-300: #d1d5db;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: var(--fg-primary);
+    text-decoration: none;
+}
+
+body,
+html {
+    color: var(--fg-primary);
+    font-family: 'Switzer';
+}
+
+ul, 
+ol, 
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+input {
+    outline: none;
+}
+
+.logoContainer__T5rZ a {
+    display: inline-block;
+    fill: burlywood;
+    width: 320px;
+}
+
+.menuLink__T5rZ {
+    font-weight: 600;
+}
+
+.formLabel__3cQN {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.signUpFormInput__3cQN[type='text'],
+.signUpFormInput__3cQN[type='password'] {
+    border: none;
+    box-shadow: 0 0 0 1px var(--gray-300);
+    font-family: 'Switzer';
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.signUpFormInput__3cQN:focus,
+.signUpFormInput__3cQN:active {
+    box-shadow: 0 0 0 1px #1d4ed8;
+}
+
+.signUpFormInput__3cQN[type='text']::placeholder,
+.signUpFormInput__3cQN[type='password']::placeholder {
+    font-family: 'Switzer';
+    font-size: 14px;
+}
+
+.signUpFormInput__3cQN[type='password']:not(:placeholder-shown) {
+    font-family: 'Verdana';
+    letter-spacing: 1px;
+}
